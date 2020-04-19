@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-compatible" content="ie=edge">
+	<title>Gold Gym</title>
+	<link rel = "icon" href = "pic01.png" 
+        type = "image/x-icon"> 
+</head>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="login.css">
+<style>
+	/*CSS Reset */
+	body{
+		font-family: 'Libre Baskerville', serif;
+		color: aliceblue;
+		margin: 0px;
+		padding: 0px;
+		background: url("02.jpg");
+		background-size: cover;
+	}
+	.left{
+		display: inline-block;
+		border: 0px solid #FF0000;
+		position: absolute;
+		left: 30px;
+		top: 18px;
+	}
+	.left img{
+		width: 90px;
+	}
+	.left div{
+		text-align: center;
+	}
+	.mid{
+		display: block;
+		width: 40%;
+		margin: 20px auto;
+		border: 0px solid #0000FF;
+	}
+	.right{
+		position: absolute;
+		right: 30px;
+		top: 18px;
+		display: inline-block;
+		border: 0px solid #FFFF00;		
+	}
+	.navbar{
+		display: inline-block;
+	}
+	.navbar li{
+		display: inline-block;
+		font-size: 17px; 
+	}
+	.navbar li a{
+		color: white;
+		text-decoration: none;
+		padding: 36px 23px;
+	}
+	.navbar li a:hover,.navbar li a.active {
+		text-decoration: underline;
+		color: aqua;
+	}
+	.btn{
+		font-family: 'Libre Baskerville', serif;
+		margin: 0px 15px;
+		background-color: darkslategrey;
+		color: aliceblue;
+		padding: 4px 12px;
+		border: 2px solid #525252;
+		font-size: 15px;
+		cursor: pointer;
+	}
+	.btn:hover{
+		background-color: grey;
+	}
+	.box{
+		width: 300px;
+		padding: 40px;
+		position: absolute;
+		top: 9%;
+		left: 50%;
+		transform: translate(-50%,50%);
+		background:#2B2626;
+		text-align: center;
+	}
+	.box h1{
+		color: aliceblue;
+		text-transform: uppercase;
+		font-weight: 500;
+	}
+	.box input[type="text"],.box input[type="email"],.box input[type="number"]
+	{
+		border: 0;
+		background: none;
+		display: block;
+		margin: 20px auto;
+		text-align: center;
+		border: 2px solid #24F382;
+		padding: 14px 10px;
+		width: 200px;
+		outline: none;
+		color: aliceblue;
+		border-radius: 24px;
+		transition: 0.25s;
+	}
+	.box input[type="text"]:focus,.box input[type="email"]:focus,.box input[type="number"]:focus{
+		width: 280px;
+		border-color: #001CC4;
+	}	
+	.box input[type="submit"]{
+		
+		border: 0;
+		background: none;
+		display: block;
+		margin: 20px auto;
+		text-align: center;
+		border: 2px solid  #F417DE;
+		padding: 14px 40px;
+		outline: none;
+		color:whitesmoke;
+		border-radius: 24px;
+		transition: 0.25s;
+		cursor: pointer;
+	}
+	.box input[type="submit"]:hover{
+		background:#F417DE;
+	}
+	
+	}
+	</style>
+		  <body>
+<header class="header">
+	<!--left box for logo -->
+	<div class="left">
+	<img src="images.png" alt="">
+	<div>Gold Fitness</div>	
+	</div>
+	<!--mid box for nav bar-->
+	<div class="mid">
+	<ul class ="navbar">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About Us</a></li>
+		<li><a href="pack.html">program</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</div>
+	<!--right bar for login-->
+	<div class="right">
+		<button class="btn"><a href="register.html">Register</a></button>
+		<button class="btn"><a href="login.html">Login</a></button>
+	</div>
+		
+			  </header>
+	   	<form class="box" action="register.html" method="get">
+			  <h1>Register</h1>
+				<input type="text" name="" placeholder="Name">
+				<input type="email" name="" placeholder="email address">
+				<input type="number" name="" placeholder="Phone Number">
+				<input type="submit" name="" placeholder="Register">
+			  </form>
+			  
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
